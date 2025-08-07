@@ -1,0 +1,18 @@
+#grid-container {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    display: grid;
+}
+.grid-square {
+    border: 1px solid #eee;
+    min-width: 0;
+    min-height: 0;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+}
